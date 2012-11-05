@@ -1,9 +1,12 @@
 Project name: GeoTrack
+
  Description:
-	“App keeps list of locations where user has been moving while app is on.
-	Software shows trail in map. List holds points and time of locations. When
+	“App keeps list of locations where user has been moving while app is on. 
+	Software shows trail in map. List holds points and time of locations. When 
 	list item is clicked it shows location from map.”
+
  Target api use highest api level available
+
  Minimum api level 8 (Android 2.2)
 
  Comment your code
