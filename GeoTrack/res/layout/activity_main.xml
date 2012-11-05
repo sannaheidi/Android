@@ -9,10 +9,21 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-      	android:background="#8fd8d8"
         android:layout_alignParentTop="true"
         android:orientation="vertical" >
-		
+
+        <Button
+            android:id="@+id/ListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ListView" />
+			
+        <Button
+            android:id="@+id/MapView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MapView" />
+
     </LinearLayout>
 
 </RelativeLayout>
