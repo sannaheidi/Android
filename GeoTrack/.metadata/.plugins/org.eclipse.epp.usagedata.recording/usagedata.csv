@@ -1,0 +1,15 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.pde.runtime,3.4.201.v20110928-1516,"org.eclipse.pde.runtime",1352131799673
+stopped,bundle,org.eclipse.pde.ui.templates,3.4.400.v20110928-1516,"org.eclipse.pde.ui.templates",1352131799673
+stopped,bundle,org.eclipse.wb.rcp.GroupLayout,1.3.0.r37x201202010125,"org.eclipse.wb.rcp.GroupLayout",1352131799673
+stopped,bundle,org.eclipse.wb.rcp.SWT_AWT,1.3.0.r37x201202021427,"org.eclipse.wb.rcp.SWT_AWT",1352131799673
+stopped,bundle,org.eclipse.wb.rcp.databinding.emf,1.3.0.r37x201202010053,"org.eclipse.wb.rcp.databinding.emf",1352131799683
+stopped,bundle,org.eclipse.wb.rcp.databinding.xwt,1.3.0.r37x201202061752,"org.eclipse.wb.rcp.databinding.xwt",1352131799683
+stopped,bundle,org.eclipse.wb.rcp.databinding,1.3.0.r37x201202010053,"org.eclipse.wb.rcp.databinding",1352131799683
+stopped,bundle,org.eclipse.wb.rcp.nebula,1.3.0.r37x201202010053,"org.eclipse.wb.rcp.nebula",1352131799683
+stopped,bundle,org.eclipse.wb.rcp.swing2swt,1.3.0.r37x201202010053,"org.eclipse.wb.rcp.swing2swt",1352131799683
+stopped,bundle,org.eclipse.wb.xwt,1.3.0.r37x201202061752,"org.eclipse.wb.xwt",1352131799683
+stopped,bundle,org.eclipse.wb.rcp,1.3.0.r37x201202010053,"org.eclipse.wb.rcp",1352131799683
+stopped,bundle,org.eclipse.pde.ui,3.6.100.v20120103_r372,"org.eclipse.pde.ui",1352131799683
+stopped,bundle,org.eclipse.ui.cheatsheets,3.4.100.v20110425,"org.eclipse.ui.cheatsheets",1352131799723
+stopped,bundle,org.eclipse.help.ui,3.5.101.r37_20110819,"org.eclipse.help.ui",1352131799733
