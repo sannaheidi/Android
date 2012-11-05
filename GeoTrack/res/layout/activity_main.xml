@@ -10,6 +10,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:background="#8fd8d8"
         android:orientation="vertical" >
 
         <Button
