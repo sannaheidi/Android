@@ -3,17 +3,13 @@ package com.example.mobiiliharkka;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.support.v4.app.FragmentActivity;
 
 public class MainActivity extends Activity {
 
-    Button listButton = (Button)
-    findViewById(R.id.ListView);
-    
-    Button mapButton = (Button)
-    findViewById(R.id.MapView);
-       
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +22,28 @@ public class MainActivity extends Activity {
         return true;
     }
     
+    public void OnClick(View v){
+        
+        switch(v.getId()) {
+        case R.id.buttonMapView:
+            
+            Button ass = (Button) findViewById(R.id.buttonMapView);
+            ass.setVisibility(View.GONE);
     
+            
+            ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar);
+            progressBar.setVisibility(View.VISIBLE);
+             
+        break;
+        case R.id.buttonListView:
+        
+            this.finish();
+            
+        break;
+        }
+        
+        
+        
+    }
     
 }

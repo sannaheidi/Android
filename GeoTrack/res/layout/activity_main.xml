@@ -15,21 +15,37 @@
         android:background="#8fd8d8"
         android:orientation="vertical" >
 
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/ListView"
+                  
+      <Button
+        android:id="@+id/buttonListView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:text="ListView" />
-
-    <Button
-        android:id="@+id/MapView"
+        
+    
+            <Button
+        android:id="@+id/buttonMapView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="false"
         android:layout_marginTop="150dp"
         android:text="MapView" />
 
+    <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" 
+                    android:visibility="gone"/>
+        
+        
+        
+    </LinearLayout>
+
+       
+        
+    
 </RelativeLayout>

@@ -220,11 +220,11 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int ListView=0x7f040012;
-        public static final int MapView=0x7f040013;
         public static final int alignBounds=0x7f040002;
         public static final int alignMargins=0x7f040003;
         public static final int bottom=0x7f040005;
+        public static final int buttonListView=0x7f040012;
+        public static final int buttonMapView=0x7f040013;
         public static final int center=0x7f04000c;
         public static final int center_horizontal=0x7f04000a;
         public static final int center_vertical=0x7f040008;
@@ -236,7 +236,8 @@ containing a value of this type.
         public static final int fill_vertical=0x7f040009;
         public static final int horizontal=0x7f040000;
         public static final int left=0x7f040006;
-        public static final int menu_settings=0x7f040014;
+        public static final int menu_settings=0x7f040015;
+        public static final int progressBar=0x7f040014;
         public static final int right=0x7f040007;
         public static final int start=0x7f040010;
         public static final int top=0x7f040004;
