@@ -1,7 +1,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal" >
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -13,21 +14,22 @@
         android:gravity="center_horizontal"
         android:background="#8fd8d8"
         android:orientation="vertical" >
-
-        <Button
-            android:id="@+id/ListView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
-            android:text="ListView" />
-			
-        <Button
-            android:id="@+id/MapView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="150dp"
-            android:text="MapView" />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/ListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="ListView" />
+
+    <Button
+        android:id="@+id/MapView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="150dp"
+        android:text="MapView" />
 
 </RelativeLayout>
