@@ -237,7 +237,7 @@ containing a value of this type.
         public static final int horizontal=0x7f040000;
         public static final int left=0x7f040006;
         public static final int menu_settings=0x7f040015;
-        public static final int progressBar=0x7f040014;
+        public static final int progressBar2=0x7f040014;
         public static final int right=0x7f040007;
         public static final int start=0x7f040010;
         public static final int top=0x7f040004;

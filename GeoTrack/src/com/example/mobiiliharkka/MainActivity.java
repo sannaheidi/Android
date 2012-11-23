@@ -2,11 +2,10 @@ package com.example.mobiiliharkka;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.support.v4.app.FragmentActivity;
+import android.view.*;
 
 public class MainActivity extends Activity {
 
@@ -21,18 +20,17 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.activity_main, menu);
         return true;
     }
-    
+
     public void OnClick(View v){
         
         switch(v.getId()) {
-        case R.id.buttonMapView:
-            
+        case R.id.buttonMapView:           
             Button ass = (Button) findViewById(R.id.buttonMapView);
             ass.setVisibility(View.GONE);
     
             
-            ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar);
-            progressBar.setVisibility(View.VISIBLE);
+            ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar2);
+            progressBar.setVisibility(View.GONE);
              
         break;
         case R.id.buttonListView:
