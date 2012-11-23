@@ -21,16 +21,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
+<<<<<<< HEAD
         android:onClick="onClick"
         android:text="ListView" />
+=======
+        android:text="ListView" 
+        android:onClick="onClick"/>
+>>>>>>> 879d73c788dbffbb0cd6cee41116f2ca936b97c6
         
     
-            <Button
+     <Button
         android:id="@+id/buttonMapView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="false"
         android:layout_marginTop="150dp"
+<<<<<<< HEAD
         android:onClick="onClick"
         android:text="MapView" />
 
@@ -44,6 +50,17 @@
                     android:visibility="invisible"/>
         
         
+=======
+        android:text="MapView" 
+        android:onClick="onClick"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:visibility="gone"/>
+>>>>>>> 879d73c788dbffbb0cd6cee41116f2ca936b97c6
         
     </LinearLayout>
 

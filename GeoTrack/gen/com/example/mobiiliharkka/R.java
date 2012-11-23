@@ -15,10 +15,35 @@ public final class R {
         public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
+<<<<<<< HEAD
         public static final int buttonListView=0x7f070000;
         public static final int buttonMapView=0x7f070001;
         public static final int menu_settings=0x7f070003;
         public static final int progressBar=0x7f070002;
+=======
+        public static final int alignBounds=0x7f040002;
+        public static final int alignMargins=0x7f040003;
+        public static final int bottom=0x7f040005;
+        public static final int buttonListView=0x7f040012;
+        public static final int buttonMapView=0x7f040013;
+        public static final int center=0x7f04000c;
+        public static final int center_horizontal=0x7f04000a;
+        public static final int center_vertical=0x7f040008;
+        public static final int clip_horizontal=0x7f04000f;
+        public static final int clip_vertical=0x7f04000e;
+        public static final int end=0x7f040011;
+        public static final int fill=0x7f04000d;
+        public static final int fill_horizontal=0x7f04000b;
+        public static final int fill_vertical=0x7f040009;
+        public static final int horizontal=0x7f040000;
+        public static final int left=0x7f040006;
+        public static final int menu_settings=0x7f040015;
+        public static final int progressBar2=0x7f040014;
+        public static final int right=0x7f040007;
+        public static final int start=0x7f040010;
+        public static final int top=0x7f040004;
+        public static final int vertical=0x7f040001;
+>>>>>>> 879d73c788dbffbb0cd6cee41116f2ca936b97c6
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
