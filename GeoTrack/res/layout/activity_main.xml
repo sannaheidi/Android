@@ -13,17 +13,19 @@
         android:gravity="center_horizontal"
         android:background="#8fd8d8"
         android:orientation="vertical" >
-
+
         <Button
             android:id="@+id/ListView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
             android:text="ListView" />
-			
+			
         <Button
             android:id="@+id/MapView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
             android:text="MapView" />
 
     </LinearLayout>
