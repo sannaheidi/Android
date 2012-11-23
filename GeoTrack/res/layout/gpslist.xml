@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+<ListView android:id="@+id/list"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" 
     android:background="#8fd8d8"
+<<<<<<< HEAD
         >
     
 
     
     
     
+=======
+    android:focusable="false"
+    android:layout_weight="1" />
+<TextView android:id="@+id/empty"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="Loading"
+    android:visibility="invisible" /> 
+>>>>>>> 042d9034062ef54ce143bad0ce4014817bafd610
     
 </ListView>

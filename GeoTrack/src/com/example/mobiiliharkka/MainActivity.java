@@ -20,9 +20,9 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.activity_main, menu);
         return true;
     }
-
+    
     public void onClick(View v){
-        
+
         switch(v.getId()) {
         case R.id.buttonMapView:           
             Button ass = (Button) findViewById(R.id.buttonMapView);
@@ -34,8 +34,7 @@ public class MainActivity extends Activity {
              
           break;
         case R.id.buttonListView:
-        
-            this.finish();
+            setContentView(R.layout.gpslist.xml);
             
         break;
         }
