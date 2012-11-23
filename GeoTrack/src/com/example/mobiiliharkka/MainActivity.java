@@ -11,6 +11,8 @@ public class MainActivity extends Activity {
     Button listButton = (Button)
     findViewById(R.id.ListView);
     
+    Button mapButton = (Button)
+    findViewById(R.id.MapView);
        
     @Override
     public void onCreate(Bundle savedInstanceState) {
