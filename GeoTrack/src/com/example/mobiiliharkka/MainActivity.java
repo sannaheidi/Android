@@ -1,11 +1,16 @@
 package com.example.mobiiliharkka;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
+import android.widget.Button;
 import android.support.v4.app.FragmentActivity;
 
-public class MainActivity extends FragmentActivity {
+public class MainActivity extends Activity {
 
+    Button myButton = (Button)
+    findViewById(android.R.id.button1);
+    
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,4 +22,8 @@ public class MainActivity extends FragmentActivity {
         getMenuInflater().inflate(R.menu.activity_main, menu);
         return true;
     }
+    
+
+    
+    
 }
