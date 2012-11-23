@@ -987,36 +987,3 @@ java.lang.IllegalStateException: Preference node "com.example.mobiiliharkka.Main
 	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:106)
 	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter$1.run(WorkbenchRunnableAdapter.java:122)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-!SESSION 2012-11-23 18:00:48.776 -----------------------------------------------
-eclipse.buildId=M20120208-0800
-java.version=1.7.0_04
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fi_FI
-Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data C:\Users\Sanna\Documents\GitHub\Android -product org.eclipse.epp.package.jee.product
-
-!ENTRY com.android.ide.eclipse.adt 4 0 2012-11-23 18:18:45.606
-!MESSAGE 
-!STACK 1
-org.eclipse.core.internal.resources.ResourceException: Resource '/GeoTrack/res' does not exist.
-	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:320)
-	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:194)
-	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
-	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
-	at com.android.ide.eclipse.adt.internal.sdk.Sdk$6.run(Sdk.java:1307)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-!SUBENTRY 1 org.eclipse.core.resources 4 368 2012-11-23 18:18:45.607
-!MESSAGE Resource '/GeoTrack/res' does not exist.
-
-!ENTRY com.android.ide.eclipse.adt 4 0 2012-11-23 18:18:45.696
-!MESSAGE 
-!STACK 1
-org.eclipse.core.internal.resources.ResourceException: Resource '/com.example.mobiiliharkka.MainActivity/res' does not exist.
-	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:320)
-	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:194)
-	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
-	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
-	at com.android.ide.eclipse.adt.internal.sdk.Sdk$6.run(Sdk.java:1307)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-!SUBENTRY 1 org.eclipse.core.resources 4 368 2012-11-23 18:18:45.696
-!MESSAGE Resource '/com.example.mobiiliharkka.MainActivity/res' does not exist.
