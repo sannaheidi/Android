@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
         return true;
     }
 
-    public void OnClick(View v){
+    public void onClick(View v){
         
         switch(v.getId()) {
         case R.id.buttonMapView:           
@@ -30,9 +30,9 @@ public class MainActivity extends Activity {
     
             
             ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar2);
-            progressBar.setVisibility(View.GONE);
+            progressBar.setVisibility(View.VISIBLE);
              
-        break;
+          break;
         case R.id.buttonListView:
         
             this.finish();
