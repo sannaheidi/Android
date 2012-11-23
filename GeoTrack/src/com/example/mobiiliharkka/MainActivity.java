@@ -8,9 +8,10 @@ import android.support.v4.app.FragmentActivity;
 
 public class MainActivity extends Activity {
 
-    Button myButton = (Button)
-    findViewById(android.R.id.button1);
+    Button listButton = (Button)
+    findViewById(R.id.ListView);
     
+       
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +24,6 @@ public class MainActivity extends Activity {
         return true;
     }
     
-
     
     
 }
